@@ -1,6 +1,6 @@
 #include <fstream>
 #include "file_to_string.h"
-#include "lib/app_exception/app_exception.h"
+#include "app_exception.h"
 
 
 static const std::string err_file_msg = "Не удалось прочитать файл, проерьте его наличие и праава доступа: ";

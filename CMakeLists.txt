@@ -5,9 +5,8 @@ project(file_to_string
 	DESCRIPTION "C++ library with functions for return one string of file."
 	LANGUAGES CXX)
 
-add_subdirectory(lib)
-
-set(public_headers "*.h")
-set(sources "*.cpp")
+file(GLOB
+	public_headers "*.h"
+	sources "*.cpp")
 
 add_library(${PROJECT_NAME}_lib ${sources} ${public_headers})

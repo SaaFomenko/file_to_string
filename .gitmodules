@@ -1,3 +1,0 @@
-[submodule "lib/app_exception"]
-	path = lib/app_exception
-	url = git@github.com:SaaFomenko/app_exception.git
